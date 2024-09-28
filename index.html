@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title>Formulário de Login Simples - AULA 01.</title>
+    <title>Formulário de Login Simples - AULA 03.</title>
 </head>
 <body>
     <main>
@@ -10,12 +10,11 @@
         <h1>Formulário de Aluno: Mayza Fernanda</h1>
         <form>
             <fieldset style="width: 30%;">
-
                 <legend>Dados</legend>
                 <br />
 
                 <label>
-                     <input type="email" placeholder="E-mail" name="email" style="width: 300px;height: 30px;">
+                     <input id="#email" type="email" placeholder="E-mail" name="email" style="width: 300px;height: 30px;">
                 </label>
                 <br />
                 <br />
@@ -42,7 +41,8 @@
 
     <!-- <script src="./javascript.js"></script>  -->
     <script type="text/javascript">
-        
+        const test = document.getElementById('#email');
+        console.log('elemento: ', test);
     </script> 
 </body>
 </html>
